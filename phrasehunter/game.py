@@ -37,7 +37,8 @@ class Game:
             self.game_over()
 
     def random_phrase(self):
-        """Randomly retrieve one of the phrases stored in the phrases list and return it."""
+        """Randomly retrieve one of the phrases
+           stored in the phrases list and return it."""
         return random.choice(self.phrases)
 
     def welcome(self):
@@ -47,7 +48,8 @@ class Game:
               f"      5 wrong guesses = looser!")
 
     def get_guess(self):
-        """Get the guess from a user and records it in the guesses attribute"""
+        """Get the guess from a user and
+           records it in the guesses attribute"""
         while True:
             try:
                 guess_input = input("\n\n Guess a letter:> ").lower()
