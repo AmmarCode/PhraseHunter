@@ -2,7 +2,7 @@ Phrase Hunter Game
 ------------------
 Python Web Development
 
-Tech degree Project 1
+Tech degree Project 3
 
 Created by AmmarCode
 
